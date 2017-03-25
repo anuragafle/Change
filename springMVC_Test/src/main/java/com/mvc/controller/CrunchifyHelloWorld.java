@@ -13,6 +13,7 @@ public class CrunchifyHelloWorld {
 				+ "<h3>********** Hello World, Spring MVC Tutorial</h3>This message is coming from CrunchifyHelloWorld.java **********</div><br><br>";
 		int i=0;
 		return new ModelAndView("showMessage", "messege", message);
+System.out.println("Hello world");
 	
 	}
 }
